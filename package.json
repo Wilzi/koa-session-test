@@ -1,0 +1,49 @@
+{
+  "name": "koa-session-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "build-production": "gulp build --production",
+    "start": "node processes/web",
+    "code-style": "gulp code-style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilzi/koa-session-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "boar-server": "3.0.0",
+    "co": "4.6.0",
+    "koa": "1.2.0",
+    "koa-router": "5.4.0",
+    "koa-session": "3.3.1",
+    "logentries-logformat": "0.1.4",
+    "suite-js-sdk": "11.3.0"
+  },
+  "engines": {
+    "node": "6.2.1"
+  },
+  "devDependencies": {
+    "boar-tasks-server": "5.1.0",
+    "chai": "3.5.0",
+    "chai-string": "1.2.0",
+    "chai-subset": "1.2.1",
+    "co-supertest": "0.0.10",
+    "dotenv": "2.0.0",
+    "eslint": "2.3.0",
+    "eslint-config-emarsys": "4.0.0",
+    "eslint-plugin-mocha": "2.0.0",
+    "gulp": "3.9.1",
+    "run-sequence": "1.1.5",
+    "sinon": "1.17.3",
+    "sinon-chai": "2.8.0",
+    "supertest": "1.2.0",
+    "validate-commit-message": "3.0.1"
+  }
+}
